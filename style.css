@@ -111,8 +111,8 @@ html {
     padding: 10px;
     border-radius: 200px;
     display: flex;
-    margin-top: 30px;
-    margin-left: 400px;
+    justify-content: center; /* Center horizontally */
+    margin: 30px auto; /* Center vertically and horizontally */
     position: relative;
 }
 
