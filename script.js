@@ -125,3 +125,9 @@ document.querySelectorAll('.more-info-btn').forEach(button => {
         additionalInfo.style.display = additionalInfo.style.display === 'none' ? 'block' : 'none';
     });
 });
+
+document.getElementById('policy-link').addEventListener('click', function(event) {
+    event.preventDefault();
+    window.alert('This is our Privacy Policy.');
+});
+
