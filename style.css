@@ -39,6 +39,9 @@ html {
     margin-bottom: -10%;
     justify-content: center; /* Center horizontally */
 }
+.header .introduction p {
+    color: rgb(255, 255, 255);;
+}
 .header .area {
     position: relative;
     display: flex;
@@ -218,12 +221,12 @@ html {
     border: 1px solid #ccc;
     text-align: center;
     transition: transform 0.3s ease;
-    background-color: #7c7676;
+    background-color: #e4dfdf;
     
 }
 
 .slide h4 , p {
-    color: #faf5f5;
+    color: rgb(226, 13, 77);
 }
 .slide:hover {
     transform: scale(1.05);
@@ -248,11 +251,11 @@ html {
     color: #66051d;
 }
 .more-info-btn:hover {
-    color: burlywood;
+    color: rgb(228, 5, 91);
 }
 .slide:hover .product-info {
     opacity: 1;
-    color: burlywood;
+    color: rgb(226, 13, 77);
 }
 
 .About{
