@@ -218,10 +218,10 @@ html {
     flex: 0 0 300px;
     margin-right: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #d8c0c0;
     text-align: center;
     transition: transform 0.3s ease;
-    background-color: #e4dfdf;
+    background-color: #c0bfbf;
     
 }
 
