@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-commerce Landing Page</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="home">
+        <div class="header">
+            <div class="logo">
+                <img src="./images/logo.jpg" alt="Logo">
+            </div>
+            <div class="introduction">
+                <p>Welcome to our site ..</p>
+            </div>
+            <nav class="area">
+                <div class="menu">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about-us"> About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>    
+        </nav>
+    </header>
+
+    <!-- Searching -->
+    <section id="search-section"  class="search">
+        <input type="text" class="search-input" placeholder="Search products...">
+        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+    </section>
+
+    <!-- Product Showcase -->
+    <section class="product-showcase" id="products">
+        <h2>Products</h2>
+        <div class="slider">
+            <div class="slide">
+                <img src="./images/img2.jpg" alt="Hesperantha coccinea 'Sunrise">
+                <div class="product-info ">
+                    <h4 >Hesperantha coccinea Sunrise</h4>
+                    <p>$19.99</p>
+                    <a href="#" class="more-info-btn">More information...</a>
+                    <div class="additional-info" style="display: none;">
+                        <p> Position: Full sun, partial shade
+                            Soil: Almost any soil, grows well in Ballyrobert
+                            Flowers: August, September, October, November
+                            Other features: Grows well in Ballyrobert,Cut Flowers or Dried Flowers
+                            Colour: Green, pink </p>
+                    </div>
+                </div>    
+            </div>
+            <div class="slide">
+                <img src="./images/img3.jpg" alt="Daisy Flower">
+                <div class="product-info">
+                    <h4>Daisy Flower</h4>
+                    <p>$29.99</p>
+                    <a href="#" class="more-info-btn">More information...</a>
+                    <div class="additional-info" style="display: none;">
+                        <p>Description: Daisy, any of several species of flowering plants
+                            belonging to the aster family (Asteraceae),
+                            The name daisy commonly denotes the oxeye daisy. </p>
+                    </div>               
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./images/img4.jpg" alt="Marigold flowers">
+                <div class="product-info">
+                    <h4>Marigold flowers</h4>
+                    <p>$39.99</p>
+                    <a href="#" class="more-info-btn">More information...</a>
+                    <div class="additional-info" style="display: none;">
+                        <p>Description: They belong to the Asteraceae family, like the Daisies, Asters and Chrysanthemums,
+                            coming originally from North and South America. They can grow up to 5 feet, depending on the type,
+                            The colours are typically in yellow, orange and white.</p>
+                    </div>                
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./images/img7.jpg" alt="Floribunda Rose ">
+                <div class="product-info">
+                    <h4>Floribunda Rose</h4>
+                    <p>$49.99</p>
+                    <a href="#" class="more-info-btn">More information...</a>
+                    <div class="additional-info" style="display: none;">
+                        <p> Floribundas are a cross between polyantha species roses and hybrid teas,
+                            FLOWER COLOR: Orange, Pink, Red, White, Yellow
+                            Light: Full sun
+                            Water: Plant in well-drained, fertile soil
+                            Size: To 4 feet tall and 3 feet wide
+                            Zones: 5-9</p>
+                    </div>                
+                </div>    
+            </div>
+            <div class="slide">
+                <img src="./images/img5.jpg" alt="Orchid Cactus">
+                <div class="product-info">
+                    <h4>Orchid Cactus</h4>
+                    <p>$59.99</p>
+                    <a href="#" class="more-info-btn">More information...</a>
+                    <div class="additional-info" style="display: none;">
+                        <p>Description: this exotic flower produces a spectacular display at night time. 
+                            The white blooms are highly fragrant and grow up to 12 inches wide,
+                            with spikey bracts in the background.
+                            zones: 10 to 11</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./images/img1.png" alt="Jasmine flower">
+                <div class="product-info">
+                    <h4>Jasmine flower</h4>
+                    <p>$59.99</p>
+                    <a href="#" class="more-info-btn">More information...</a>
+                    <div class="additional-info" style="display: none;">
+                        <p>Description: Jasmine flower has different types and colors ...../p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!--start about -->
+    <div class="About" id="about-us">
+        <div class="myimage">
+            <img src="./images/logo.jpg" alt="">
+        </div>
+        <div class="brief">
+            <h2>About Us</h2>
+            <ul>
+                <li><a href="">Name :&nbsp;&nbsp; <span> Flower Shop</span> </a></li>
+                <li><a href="">Age : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span> since 2010</span></a></li>
+                <li><a href="">about us : &nbsp;&nbsp;  <span>Everything here is made with love , 
+                                We have the best flowers here , hope you like it </span></a></li>
+                <li><a href="">Address :  &nbsp;&nbsp;&nbsp; <span>  Cairo</span> </a></li>
+                <li><a href="">Phone :  &nbsp;&nbsp;&nbsp; <span>  0128736288</span> </a></li>
+            </ul>
+        </div>
+    </div>
+    <!--end about-->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#about-us">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="social-media">
+            <a href="https://twitter.com/SamarNa38778085?fbclid=IwAR0qB0Vrblnl9U1UgbQaNAL4AEKQIhlTTUU8UccUeh8cylSBE14LcQNXlEE" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100009842313987" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/samar_nasr8/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    
+    <!-- start footer  -->
+    <div class="footer"><a href="#about-us">created by samar </a></div>
+    <!-- end footer  -->
+</body>
+
+<script src="script.js"></script>
+</html>
